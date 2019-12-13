@@ -1,0 +1,45 @@
+table, th, td {
+    border: 1px solid black; 
+    border-collapse: collapse; 
+    
+}
+
+th {
+    background-color: rgb(13, 5, 83);
+    color: white;
+    
+}
+
+th, td { 
+    padding: 10px; 
+    border: none;
+    border-bottom: 1px solid black;
+    
+} 
+  
+th { 
+    text-align: left; 
+    
+} 
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: black;
+}
+
+#edit, #delete {
+    color: gray;
+}
+
+#save {
+    color: green;
+}
+
+#cancel {
+    color: red;
+}
